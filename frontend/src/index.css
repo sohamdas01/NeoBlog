@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  /*use custom color theme*/
+  --color-primary: #2979FF; /*use the color as primary*/
+}
+
+* {
+  font-family: "Outfit", sans-serif; /*add css to entire file*/
+}
+
+::-webkit-scrollbar {
+  display: none; /*disable scroll bar*/
+}
+
+/* Global Blog Content Styling - Light Mode */
+.blog-content h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #1f2937; /* gray-800 */
+}
+
+.blog-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #374151; /* gray-700 */
+}
+
+.blog-content h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  color: #4b5563; /* gray-600 */
+}
+
+.blog-content p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #4b5563;
+  margin-bottom: 1rem;
+}
+
+.blog-content ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog-content ol {
+  list-style-type: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+  color: #4b5563;
+}
+
+.blog-content a {
+  color: #3b82f6; /* blue-500 */
+  text-decoration: underline;
+}
+
+.blog-content a:hover {
+  color: #2563eb; /* blue-600 */
+}
+
+.blog-content strong {
+  font-weight: 700;
+  color: #111827; /* gray-900 */
+}
+
+/* Global Blog Content Styling - Dark Mode */
+html.dark .blog-content h1 {
+  color: #f9fafb; /* gray-50 */
+}
+
+html.dark .blog-content h2 {
+  color: #f3f4f6; /* gray-100 */
+}
+
+html.dark .blog-content h3 {
+  color: #e5e7eb; /* gray-200 */
+}
+
+html.dark .blog-content p {
+  color: #d1d5db; /* gray-300 */
+}
+
+html.dark .blog-content li {
+  color: #d1d5db; /* gray-300 */
+}
+
+html.dark .blog-content a {
+  color: #60a5fa; /* blue-400 */
+}
+
+html.dark .blog-content a:hover {
+  color: #3b82f6; /* blue-500 */
+}
+
+html.dark .blog-content strong {
+  color: #f9fafb; /* gray-50 */
+}
+
+/* Root HTML Dark Mode Setup */
+html {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html.dark {
+  background-color: rgb(15, 23, 42); /* slate-900 */
+  color: #e2e8f0; /* slate-200 */
+}
+
+/* Body dark mode support */
+html.dark body {
+  background-color: rgb(15, 23, 42); /* slate-900 */
+  color: #e2e8f0; /* slate-200 */
+}
+
+/* Additional dark mode utilities */
+html.dark .text-gray-900 {
+  color: #f1f5f9; /* slate-100 */
+}
+
+html.dark .text-gray-800 {
+  color: #f1f5f9; /* slate-100 */
+}
+
+html.dark .text-gray-700 {
+  color: #e2e8f0; /* slate-200 */
+}
+
+html.dark .text-gray-600 {
+  color: #cbd5e1; /* slate-300 */
+}
+
+html.dark .text-gray-500 {
+  color: #94a3b8; /* slate-400 */
+}
+
+html.dark .bg-white {
+  background-color: rgb(30, 41, 59); /* slate-800 */
+}
+
+html.dark .bg-gray-50 {
+  background-color: rgb(15, 23, 42); /* slate-900 */
+}
+
+html.dark .bg-gray-100 {
+  background-color: rgb(30, 41, 59); /* slate-800 */
+}
+
+/* Card and component shadows in dark mode */
+html.dark .shadow-md {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+html.dark .shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.3), 0 4px 6px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* Scrollbar styling for dark mode */
+html.dark ::-webkit-scrollbar-track {
+  background: rgb(30, 41, 59); /* slate-800 */
+}
+
+html.dark ::-webkit-scrollbar-thumb {
+  background: rgb(71, 85, 105); /* slate-600 */
+}
+
+html.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgb(100, 116, 139); /* slate-500 */
+}
