@@ -1,0 +1,21 @@
+{
+  "name": "neoblog",
+  "version": "1.0.0",
+  "description": "NeoBlog - Full Stack Blog Application",
+  "main": "backend/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev --prefix backend",
+    "start": "npm start --prefix backend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "backend:dev": "npm run dev --prefix backend",
+    "backend:start": "npm start --prefix backend",
+    "frontend:dev": "npm run dev --prefix frontend",
+    "frontend:build": "npm run build --prefix frontend"
+  },
+  "author": "SOHAM DAS",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
