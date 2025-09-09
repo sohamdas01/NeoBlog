@@ -64,7 +64,7 @@ export const DashUser = () => {
      }
    }, [user])
 
-   // ✅ Show access denied for non-admin users
+   //  Show access denied for non-admin users
    if (!user || !user.isAdmin) {
      return (
        <div className='flex-1 pt-5 px-5 sm:pt-12 sm:pl-16'>

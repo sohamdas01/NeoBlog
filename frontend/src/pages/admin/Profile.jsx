@@ -225,6 +225,7 @@ const Profile = () => {
       const data = await response.json();
       if (response.ok) {
         dispatch(logoutSuccess());
+        navigate('/Login');
       } else {
         console.log(data.message || 'Logout failed');
       }
