@@ -229,4 +229,4 @@ The server is configured in [index.js](file:///C:/BlogApp/backend/index.js) to s
 
 ## 🎬 Demo & References
 *   **Video Walkthrough:** [Watch the Loom Video Demo](https://www.loom.com/share/b923189d8c3649b19ae5dc3753fba56c?sid=1065f511-70de-4003-b82e-300d8a17d67c)
-*   **Active Deployment:** [Explore NeoBlog Production App](https://neoblog-mnyz.onrender.com)
+*   **Active Deployment:** [Explore NeoBlog Production App](https://neoblog-1.onrender.com)
