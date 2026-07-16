@@ -119,49 +119,6 @@ Here is the structural mapping of the codebase showing the purpose of each direc
             *   [Comment.jsx](file:///C:/BlogApp/frontend/src/pages/admin/Comment.jsx) - Review center to approve or reject pending comments.
 
 ---
-
-  ## 📸 Screenshots & User Interface                                                                                                                             
-                                                                                                                                                                   
-    Here is a visual tour of NeoBlog's interface and key features. You can add your screenshots to the `/screenshots` directory.                                   
-                                                                                                                                                                   
-    ### 🏠 User Facing Interface                                                                                                                                   
-                                                                                                                                                                   
-    <table width="100%">                                                                                                                                           
-      <tr>                                                                                                                                                         
-        <td width="50%" align="center">                                                                                                                            
-          <b>Home Page & Article Feed</b><br/>                                                                                                                     
-          <img src="screenshots/homepage.png" alt="Home Page" width="100%"/>                                                                                       
-          <br/>                                                                                                                                                    
-          <sub>Responsive homepage featuring a curated article grid, categories, newsletter subscribe, and clean navigation.</sub>                                 
-        </td>                                                                                                                                                      
-        <td width="50%" align="center">                                                                                                                            
-          <b>Single Blog Post & Interactive Comments</b><br/>                                                                                                      
-          <img src="screenshots/blogview.png" alt="Single Blog View" width="100%"/>                                                                                
-          <br/>                                                                                                                                                    
-          <sub>Immersive reading view displaying post content, category tags, and nested comment threads with user likes/replies.</sub>                            
-        </td>                                                                                                                                                      
-      </tr>                                                                                                                                                        
-    </table>                                                                                                                                                       
-                                                                                                                                                                   
-    ### ⚙️ Administrator Dashboard & AI Integration                                                                                                                
-                                                                                                                                                                   
-    <table width="100%">                                                                                                                                           
-      <tr>                                                                                                                                                         
-        <td width="50%" align="center">                                                                                                                            
-          <b>Admin Dashboard Analytics</b><br/>                                                                                                                    
-          <img src="screenshots/dashboard.png" alt="Admin Dashboard" width="100%"/>                                                                                
-          <br/>                                                                                                                                                    
-          <sub>Centralized hub displaying system metrics, recent user registrations, comments, and posts management.</sub>                                         
-        </td>                                                                                                                                                      
-        <td width="50%" align="center">                                                                                                                            
-          <b>AI-Powered Article Editor</b><br/>                                                                                                                    
-          <img src="screenshots/ai-generator.png" alt="AI Generator & Quill Editor" width="100%"/>                                                                 
-          <br/>                                                                                                                                                    
-          <sub>WYSIWYG rich text editor integrated with Google Gemini API for auto-generating articles from titles.</sub>                                          
-        </td>                                                                                                                                                      
-      </tr>                                                                                                                                                        
-    </table>                                
-  ---
   
 ## 👥 Role-Based Functionality Matrix
 
